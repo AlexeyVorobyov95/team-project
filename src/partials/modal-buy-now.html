@@ -1,0 +1,64 @@
+<div class="backdrop-buy is-hidden" data-buy>
+  <div class="benefits modal-open">
+    <button class="modal__close" type="button" data-buy-close>
+      <svg width="16" height="16" class="modal__icon--close" >
+        <use href="./images/sprite.svg#icon-close"></use>
+      </svg>
+    </button>
+    <h2 class="title--modal benefits__title">Buy now
+    </h2>
+    <ul class="list benefits__list">
+      <li class="benefits__item benefits__item--green">
+        <div class="benefits__thumb">
+        <div class="benefits__elipse benefits__elipse--ice-cream">
+          <img class="benefits__img" 
+          srcset="./images/buy-modal/buy@1x.png 130w,
+             ./images/buy-modal/buy@2x.png 260w" 
+             sizes="(min-width: 320px) 130px"
+             src="./images/buy-modal/buy@1x.png" 
+             alt="icecream">
+          <p></p>
+        </div>
+      </div>
+        <p class="benefits__text">ice cream</p>
+      </li>
+      <li class="benefits__item benefits__item--yellow">
+        <div class="benefits__thumb">
+        <div class="benefits__elipse benefits__elipse--ice-coffee">
+          <img class="benefits__img" srcset="./images/buy-modal/buy1x.png 130w,
+             ./images/buy-modal/buy1@2x.png 260w"
+             sizes="(min-width: 320px) 130px"
+             src="./images/buy-modal/buy1x.png" alt="icecream">
+        </div>
+        </div>
+        <p class="benefits__text">ice coffee</p>
+      </li>
+      <li class="benefits__item benefits__item--pink">
+        <div class="benefits__thumb">
+        <div class="benefits__elipse benefits__elipse--milkshakes">
+          <img class="benefits__img" srcset="./images/buy-modal/buy2@1x.png 130w,
+             ./images/buy-modal/buy2@2x.png 260w"
+             sizes="(min-width: 320px) 130px"
+             src="./images/buy-modal/buy2@1x.png" alt="icecream">
+        </div>
+        <p class="benefits__text">milkshake</p>
+        </div>
+      </li>
+    </ul>
+
+    <form class="ingredients__form">
+      <div class="ingredients__label">
+        <input class="ingredients__input" type="text" name="user-name" pattern="[a-z]{4,8}" placeholder="Name" required>
+      </div>
+      <div class="ingredients__label">
+        <input class="ingredients__input" type="tel" name="user-tel" pattern="[0-9]{8}" placeholder="Phone" required>
+      </div>
+      <div class="ingredients__label ">
+        <textarea class="ingredients__textarea" name="modal-textarea" id="modal-textarea" rows="5" placeholder="Comment"></textarea>
+      </div>
+      <button class="ingredients__btn" type="submit">Submit</button>
+    </form>
+    
+
+  </div>
+</div>

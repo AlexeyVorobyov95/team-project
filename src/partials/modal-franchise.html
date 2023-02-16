@@ -1,0 +1,63 @@
+<div class="backdrop-franchise is-hidden" data-franchise>
+  <div class="modal-franchise modal-open">
+    <form class="form-franchise" autocapitalize="off">
+      <p class="modal-franchise__title">
+        Thank you for your interest in owning an Ice Cream shop
+      </p>
+      <button type="button" class="modal__close" data-franchise-close>
+        <svg class="btn-modal__icon">
+          <use href="./images/sprite.svg#icon-close"></use>
+        </svg>
+      </button>
+
+      <p class="modal-franchise__text">
+        Due to the overwhelming volume of franchise requests we are not
+        accepting new franchisee applications at this time. Once the application
+        process resumes, we will contact you for further information. Please
+        fill out the contact information below and we will reach out for
+        additional information. We appreciate your patience.
+      </p>
+      <div class="form__field">
+        <input
+          type="text"
+          class="form__input"
+          name="name-franchise"
+          id="name-franchise"
+          pattern="[a-z]{4,8}"
+          placeholder="Name"
+          required>
+      </div>
+
+      <div class="form__field">
+        <input
+          type="tel"
+          class="form__input"
+          name="tel-franchise"
+          id="tel-franchise"
+          pattern="[0-9]{8}"
+          placeholder="Phone"
+          required>
+      </div>
+
+      <div class="form__field">
+        <input
+          type="email"
+          class="form__input"
+          name="email-franchise"
+          id="email-franchise"
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+          placeholder="Email"
+          required>
+      </div>
+      <div class="form__field">
+        <textarea
+          class="textarea"
+          name="comment-franchise"
+          id="comment-franchise"
+          placeholder="Comment"
+        ></textarea>
+      </div>
+      <button type="submit" class="btn-submit">Submit</button>
+    </form>
+  </div>
+</div>
